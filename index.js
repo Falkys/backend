@@ -10,6 +10,7 @@ const io = new Server(http, {
     origin: ["https://corsted.xyz", "https://www.corsted.xyz", "https://corsted.cherryblood.repl.co"]
   }
 });
+
 const cors = require('cors');
 const mongoose = require('mongoose');
 const { registerValidation, loginValidation, postCreateValidation } = require('./validations.js');
